@@ -1,0 +1,15 @@
+.random-image-block {
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+    &.parallax {
+        background-attachment: fixed;
+    }
+}
